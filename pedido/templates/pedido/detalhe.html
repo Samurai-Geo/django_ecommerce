@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% load omfilters %}
+{% load static %}
+
+{% block titulo %}Detalhe do {{ pedido }} | {% endblock titulo %}
+
+{% block conteudo %}
+
+{% include "partials/_pedido.html" %}
+
+</div>
+
+{% endblock conteudo %}
